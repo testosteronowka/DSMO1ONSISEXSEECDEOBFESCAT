@@ -1,5 +1,3 @@
--- It's not necessarily "secure" but it gets the job done as Federal said he really didnt have any plans on fixing it
-
 local RunService = game:GetService("RunService") do
 	assert(RunService:IsServer() and RunService:IsStudio(), "MoonSec V3 Encrypted Dumper must be ran on the server/in studio")
 	if not pcall(loadstring, "") then
